@@ -11,7 +11,9 @@
 |
 */
 
-Route::group(array('prefix' => 'hoge'), function([$router]) {
+Route::group(array('prefix' => '/'), function($router) {
+
+    Route::get('/', 'TopController@showIndex');
 
 });
 
