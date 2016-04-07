@@ -1,0 +1,107 @@
+//################################### website setting PC /
+ @mixin site-size_set {
+  max-width:$site-size;
+  min-width: auto;
+ }
+
+$side-padding:50px;
+@mixin site-size_container_set {
+ max-width:$site-size - ($side-padding * 2);
+ min-width: auto;
+}
+ //******************************* img size /
+ //img{ width: 100%; } // base auto
+
+ //******************************* Layout /
+ @mixin maxwidth {
+   max-width:$site-size;
+ }// @include maxwidth;
+ @mixin minwidth {
+   min-width:$site-size;
+ }// @include minwidth;
+
+ //################################### website setting SP /
+ @mixin site-size_set_sp {
+  max-width:100%;
+  min-width: auto;
+ }
+ //******************************* img size /
+
+ //******************************* Layout /
+ @mixin maxwidth_sp {
+  max-width: $M;
+  width: 100%;
+ }// @include maxwidth_sp;
+
+ @mixin minwidth_sp {
+  max-width: $M;
+  width: 100%;
+ }// @include minwidth_sp;
+
+
+
+
+ $contentswidth: 100%; //Fix
+ $sideAwidth: 0%;
+ $sideBwidth: 25%; //180px
+
+ .contents {
+   width: $contentswidth - ($sideAwidth + $sideBwidth);
+   @if $sideAwidth == 0% {
+     float: right;
+   }
+   @else {
+     float: right;
+   }//contents
+ }
+
+ .side-a{
+   width: $sideAwidth;
+   @if $sideAwidth == 0% {
+     display:none;
+   }
+   @else{
+     display:block;
+   }
+ }//side-a
+
+ .side-b{
+   width: $sideBwidth;
+   float: left;
+   @if $sideBwidth == 0% {
+     display:none;
+   }@else{
+     display:block;
+   }
+ }//side-b
+
+@include MQ(M) {}//breakpoints (M) -------------------------
+@include MQ(S) {}//breakpoints (S) -------------------------
+
+
+.mobile { //mobile setting **********************
+
+ $contentswidth: 100%; //Fix
+ $sideAwidth: 100%;
+ $sideBwidth: 100%; //180px
+
+ .contents { width: $contentswidth; padding: 0;}
+ .side-a{ width: $sideAwidth; }//side-a
+ .side-b{ width: $sideBwidth; }//side-b
+
+  //Gyro setting --------------------------------
+  @media screen and (orientation: portrait) { }//portrait
+  @media screen and (orientation: landscape) { }//landscape
+  //end Gyro setting ----------------------------
+
+
+} //mobile end **********************************
+
+.tablet { //tablet setting **********************
+
+  //Gyro setting --------------------------------
+  @media screen and (orientation: portrait) { } //portrait
+  @media screen and (orientation: landscape) { }//landscape
+  //end Gyro setting ----------------------------
+
+} //tablet end **********************************

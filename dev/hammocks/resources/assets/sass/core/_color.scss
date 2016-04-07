@@ -1,0 +1,108 @@
+$main-color: #ff080d;
+$main-color_quote: darken($main-color, 10%);
+$main_light-color: lighten( $main-color, 35% );
+$main_heigh-color: saturate( $main-color, 20% );
+$main_low-color: desaturate( $main-color, 20% );
+$main_alpha-color: transparentize( $main-color, 0.2 );
+
+
+$second-color: #e6070c;
+$second-color_quote: darken($second-color, 10%);
+$second_light-color: lighten( $second-color, 10% );
+$second_heigh-color: saturate( $second-color, 20% );
+$second_low-color: desaturate( $second-color, 20% );
+$second_alpha-color: transparentize( $second-color, 0.5 );
+
+$third-color: #333333;
+$third-color_quote: darken($third-color, 10%);
+$third_light-color: lighten( $third-color, 15% );
+$third_heigh-color: saturate( $third-color, 20% );
+$third_low-color: desaturate( $third-color, 20% );
+$third_alpha-color: transparentize( $third-color, 0.95 );
+
+$fourth-color: #FFFFFF;
+$fourth-color_quote: darken($fourth-color, 10%);
+$fourth_light-color: lighten( $fourth-color, 15% );
+$fourth_heigh-color: saturate( $fourth-color, 20% );
+$fourth_low-color: desaturate( $fourth-color, 20% );
+$fourth_alpha-color: transparentize( $fourth-color, 0.95 );
+
+$button-color: $third-color;
+$button-color_quote: darken($button-color, 10%);
+$button_light-color: lighten($button-color, 15% );
+$button_low-color: desaturate($button-color, 30% );
+
+//--
+$base-color: #FFFFFF;
+$base-_alpha-color: transparentize( $base-color, 0.1 );
+
+$text-color: #222222;
+
+$link-color: #EC5858;
+$link-_sub-color: $base-color;
+$link-_third-color: #9f1608; //サイド　奥様ブログ内のタイトルテキスト（さしいろ）
+
+$line-color: #aaaaaa;
+
+$ct-background:rgba(181, 181, 181, 0.8);
+$bg-light-color: #F2F2F2;
+$bg-middle-color: #C8C8C8;
+$bg-low-color: #575555;
+
+
+//-- googlemap
+$mapin-waiting: #FFED5C;
+$mapin-waiting_text:darken($mapin-waiting, 40%);
+
+$mapin-hotel: #6B98FF;
+$mapin-hotel_text:lighten($mapin-hotel, 25%);
+
+//common color
+$disable-color:#c4c4c4;
+$disable-color_quote: darken($disable-color, 10%);
+$disable_light-color: lighten($disable-color, 15% );
+$disable_low-color: desaturate($disable-color, 90% );
+
+$default-color:#fff;
+$default-color_quote: darken($default-color, 10%);
+
+$primary-color:#337AB7;
+$primary-color_quote: darken($primary-color, 10%);
+$primary_light-color: lighten( $primary-color, 35% );
+
+$success-color:#5CB85C;
+$success-color_quote: darken($success-color, 10%);
+$success_light-color: lighten( $success-color, 35% );
+
+$info-color:#31B0D5;
+$info-color_quote: darken($info-color, 10%);
+$info_light-color: lighten( $info-color, 35% );
+
+$danger-color:#C9302C;
+$danger-color_quote: darken($danger-color, 10%);
+
+$warning-color:#C9302C;//#f00;
+$warning-color_quote: darken($warning-color, 10%);
+
+$inverse-color:#000;
+$inverse-color_quote: darken($inverse-color, 10%);
+
+$ghost-color:transparent;
+
+//曜日
+$saturday:#048BF7;
+$saturday-low: #4589d8;
+$sunday:#ff0031;
+
+// new-color
+$new-mark-color:#E73828;
+
+
+//button glay
+$bt_glay-color: #d5d5d5;//linkのないタイトルなど
+$bt_glay-color_quote: darken($bt_glay-color, 10%);
+
+$bt_glay_light-color: lighten( $bt_glay-color, 15% );
+$bt_glay_heigh-color: saturate( $bt_glay-color, 20% );
+$bt_glay_low-color: desaturate( $bt_glay-color, 20% );
+$bt_glay_alpha-color: transparentize( $bt_glay-color, 0.3 );

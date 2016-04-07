@@ -1,0 +1,30 @@
+/*mobile set*/
+//class:mobile
+
+@import "ios";
+@import "iphone";
+@import "ipod";
+@import "andoroid";
+@import "windows";
+
+
+.mobile {//mobile setting ****************************	
+	input[type="submit"],
+	input[type="button"],
+	input[type="reset"] {
+		-webkit-appearance: none;
+	}//smartphoneフォーム要素のデフォルトスタイルを削除
+ 
+ 
+
+//Gyro setting **********************************
+
+	@media screen and (orientation:portrait) {
+	}//portrait
+    
+	@media screen and (orientation:landscape) {
+	}//landscape
+
+//end Gyro setting ******************************
+
+}//mobile end ***************************************

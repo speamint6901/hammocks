@@ -1,0 +1,13 @@
+//InternetExplorer 9
+html.ie10{
+ img {  max-width: 100%;   height: auto;}
+ #contacttbl td{width:auto; padding:0;} 
+ 
+ 
+	.collapse {
+		dt {
+			&:after{top: 50%;}
+		}//dt
+	}//collapse
+	
+}//ie10

@@ -1,0 +1,58 @@
+//******************************* ID Class Name
+$name: contents-name;
+//ex.  ##{$name} .#{$name}
+
+//******************************* root
+$cssimg_path: "img";
+$page_cssimg_path: "../img";
+$img_path: "../img";
+// e.x #{$page_cssimg_path}/
+//******************************* Layer
+$layer-1:-1;
+$layer00:auto;
+$layer01:1;
+$layer02:2;// new mark
+$layer98:9998;// header_layer
+$layer99:9999;
+
+//******************************* Layout /
+$site-size:1200px;
+$header_height: 120px; //132px 固定headerの高さ 使用箇所　header高さ　コンテンツのpadding-top
+$fixed-nav-point: 110px; //headerが固定される位置
+$unit-padding: 5.0%; // 大枠内のpadding 指定
+$unit_side-padding: 5px; // サイド枠内のpadding 指定
+$bottom-mr: 15px; // unit内
+$text-padding: 2%; // テキストタイトルなど
+$cp_img-height: 190px; //CP画像の縦幅
+$cp_list_mr:0.5%;
+$cp_list_ml:0.5%;
+$box_w100: 100%;
+$list00_mglr: 0.5%;
+$sp-link-mark-pd: 1.5rem; // 矢印マークpadding
+$obi-height:24px;
+$common-side_margin:8px;
+$common-contents_padding:20px 10px;
+$common-list_padding:6px;
+
+//******************************* Responsive width /
+$responsive-width:100%;
+
+//******************************* px width → % width /
+$main-width: 1000px;
+$conv_article: 600px / $main-width * 100%;
+
+
+//******************************* Input mini width /
+$input-mini-width:30%;
+
+
+//******************************* word /
+$denwa-pc: "電話番号" ;
+$denwa-sp: "電話" ;
+
+
+//******************************* breakpoints
+$S:     480px;
+$M:     768px;
+$L:     $site-size;
+$maxL:    $L + 1px;

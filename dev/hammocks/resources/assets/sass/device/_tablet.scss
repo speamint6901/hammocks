@@ -1,0 +1,18 @@
+// *tablet set* /
+
+@import "ios";
+@import "andoroid";
+@import "windows";
+@import "portrait";
+@import "landscape";
+
+.tablet{//tablet setting ****************************
+
+//Gyro setting ##################################
+	@media screen and (orientation:portrait) {
+	}//portrait    
+	@media screen and (orientation:landscape) {
+	}//landscape
+//end Gyro setting ##############################
+
+}//tablet end ***************************************

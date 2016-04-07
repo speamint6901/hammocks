@@ -1,0 +1,12 @@
+//InternetExplorer 11
+html.ie11{
+
+	.collapse {
+		width:100%;
+		dt {
+			width:100%;
+			&:after{top: 50%;}
+		}//dt
+	}//collapse
+	
+}//ie11

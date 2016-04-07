@@ -1,0 +1,31 @@
+/* ============================================= */
+/* [Common Style] CSS Document                   */
+/* date.Jul.2015                                 */
+/* Ver.1.0.2                                     */
+/*
+※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
+このCSSファイルはSassから生成されていますので、
+編集しないようご注意ください。
+※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
+================================================ */
+
+//******************************* default import file
+@charset "utf-8";
+@import "compass";   //Compass のコアモジュールの読み込み
+@import "core/reset";
+@import "core/variables";
+@import "core/color";
+@import "core/mixin";
+
+//******************************* setting
+@import "core/setting";
+
+//******************************* import font
+@import url('http://fonts.googleapis.com/css?family=Merriweather+Sans:700,300');
+@import url('http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css');
+
+
+//******************************** Common /
+*{    @include prefix(box-sizing, border-box);    }
+
+@import "common";//Fix
